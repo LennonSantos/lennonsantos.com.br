@@ -1,0 +1,337 @@
+body{
+	background-color: #ecf0f1;
+}
+
+#doque-lennon-gosta{
+	background-color: #111;
+	border: 1px solid #bdc3c7;
+	color: #ecf0f1;
+	min-height: 175px;
+	padding: 4em;
+}
+
+#doque-lennon-gosta h2{
+	text-align: center;
+}
+
+#doque-lennon-gosta p{
+	font-size: 4em;
+	text-align: center;
+}
+
+#doque-lennon-gosta p span{
+	display: inline-block;
+	min-width: 40px;
+}
+
+#doque-lennon-gosta p span i{
+	color: #e74c3c;
+	-webkit-animation: anima 1s linear infinite;
+	-moz-animation: anima 1s linear infinite;
+	-o-animation: anima 1s linear infinite;
+	animation: anima 1s linear infinite;
+}
+
+footer{
+	background-color: #111;
+	margin-top: 5em;
+	padding: 5em;
+}
+
+footer p{
+	color: #ecf0f1;
+}
+
+header{
+	background-color: #fff;
+	border-bottom: 1px solid #ecf0f1;
+	border-top: 4px solid #000;
+	padding: 2em 0em;
+}
+
+header:hover nav h2{
+	color: #000;
+}
+
+header h1{
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+
+header nav{
+	text-align: right;
+}
+
+header nav h2, header nav a{
+	display: inline-block;
+}
+
+header nav a{
+	background-color: #111;
+	color: #fff;
+	font-size: 1.7em;
+	margin-left: 0.588em;
+	padding-right: 15px;
+	text-decoration: none;
+	transition: box-shadow 0.3s;
+}
+
+header nav a:hover{
+	box-shadow: 1px 1px 15px #000;
+}
+
+header nav a i{
+	background-color: #ecf0f1;
+	color: #000;
+	display: inline-block;
+	padding: 10px;
+}
+
+header nav h2{
+	color: #fff;
+	transition: color 0.3s;
+}
+
+section{
+	margin-top: 5em;
+}
+
+section h2{
+	font-size: 2em;
+}
+
+#visita-ai article h3{
+	background-color: #111;
+	color: #fff;
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+#visita-google img{
+	/*-webkit-filter: grayscale(100%);
+   	-moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);    
+	filter: grayscale(100%);
+    transition: all 0.2s;*/
+}
+
+/*#visita-google .column:first-child img, #visita-google .column:last-child img{
+	-webkit-filter: grayscale(100%);
+   	-moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);    
+	filter: grayscale(100%);
+}*/
+
+#visita-google img:hover{
+	-webkit-filter: grayscale(0%);
+   	-moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+}
+
+#visita-google .column:first-child img{
+	border-bottom: 2px solid #3498db;
+	border-top: 2px solid #3498db;
+}
+
+#visita-google .column:last-child img{
+	border-bottom: 2px solid #e74c3c;
+	border-top: 2px solid #f39c12;
+}
+
+#visita-google .column:nth-child(2n) img{
+	border-bottom: 2px solid #27ae60;
+	border-top: 2px solid #e74c3c;
+}
+
+*CHROME*/
+@-webkit-keyframes anima {
+
+	0%{
+		font-size: 40px;
+	}
+
+	10% {
+		font-size: 38px;
+	}
+
+	20% {
+		font-size: 36px;
+	}
+
+	30% {
+		font-size: 34px;
+	}
+
+	40% {
+		font-size: 32px;
+	}
+
+	50% {
+		font-size: 30px;
+	}
+
+	60% {
+		font-size: 32px;
+	}
+
+	70% {
+		font-size: 34px;
+	}
+
+	80% {
+		font-size: 36px;
+	}
+
+	90% {
+		font-size: 38px;
+	}
+
+	100% {
+		font-size: 40px;
+	}
+
+}
+
+/*FIREFOX*/
+@-moz-keyframes anima {
+0%{
+		font-size: 40px;
+	}
+
+	10% {
+		font-size: 38px;
+	}
+
+	20% {
+		font-size: 36px;
+	}
+
+	30% {
+		font-size: 34px;
+	}
+
+	40% {
+		font-size: 32px;
+	}
+
+	50% {
+		font-size: 30px;
+	}
+
+	60% {
+		font-size: 32px;
+	}
+
+	70% {
+		font-size: 34px;
+	}
+
+	80% {
+		font-size: 36px;
+	}
+
+	90% {
+		font-size: 38px;
+	}
+
+	100% {
+		font-size: 40px;
+	}
+}
+
+/* OPERA */
+@-o-keyframes anima {
+	0%{
+		font-size: 40px;
+	}
+
+	10% {
+		font-size: 38px;
+	}
+
+	20% {
+		font-size: 36px;
+	}
+
+	30% {
+		font-size: 34px;
+	}
+
+	40% {
+		font-size: 32px;
+	}
+
+	50% {
+		font-size: 30px;
+	}
+
+	60% {
+		font-size: 32px;
+	}
+
+	70% {
+		font-size: 34px;
+	}
+
+	80% {
+		font-size: 36px;
+	}
+
+	90% {
+		font-size: 38px;
+	}
+
+	100% {
+		font-size: 40px;
+	}
+}
+
+/* IE */
+@keyframes anima {
+	0%{
+		font-size: 40px;
+	}
+
+	10% {
+		font-size: 38px;
+	}
+
+	20% {
+		font-size: 36px;
+	}
+
+	30% {
+		font-size: 34px;
+	}
+
+	40% {
+		font-size: 32px;
+	}
+
+	50% {
+		font-size: 30px;
+	}
+
+	60% {
+		font-size: 32px;
+	}
+
+	70% {
+		font-size: 34px;
+	}
+
+	80% {
+		font-size: 36px;
+	}
+
+	90% {
+		font-size: 38px;
+	}
+
+	100% {
+		font-size: 40px;
+	}
+}
